@@ -1,3 +1,4 @@
+// test
 let canvasElement = document.getElementById("gameCanvas");
 let ctx = canvasElement.getContext("2d");
 console.log("Test");
