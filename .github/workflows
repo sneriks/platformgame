@@ -23,5 +23,4 @@ jobs:
       - name: Sync files to S3
         run: |
           aws s3 sync /Users/erikk/Documents/GitHub/platformgame s3://your-bucket-name/destination-path/
-        working-directory: arn:aws:s3:::erikscloudbucket
-
+        working-directory: s3/buckets/erikscloudbucket
