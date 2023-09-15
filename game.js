@@ -7,7 +7,7 @@ const constants = {
   PLAYER_HEIGHT: 50,
   PLATFORM_WIDTH: 100,
   PLATFORM_HEIGHT: 20,
-  GRAVITY: 1,
+  GRAVITY: 0.5,
   JUMP_FORCE: 25,
   PLAYER_SPEED: 5,
 }
